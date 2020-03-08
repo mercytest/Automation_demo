@@ -32,7 +32,6 @@ public static void setUp() throws Exception {
 }
 
 	public static void checkArrival() throws Exception {
-//		WebDriverWait wait = new WebDriverWait(driver , 2000) ;
 			wait.until(ec.visibilityOf(email));
 			email.click();
 			email.clear();
